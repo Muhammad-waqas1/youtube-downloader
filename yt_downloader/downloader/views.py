@@ -1,7 +1,7 @@
 from django.http import JsonResponse, HttpResponse
 from django.shortcuts import render
 import youtube_dl
-
+import json
 def index(request):
     return render(request, 'index.html')
 
